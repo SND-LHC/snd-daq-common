@@ -29,7 +29,7 @@ static constexpr uint64_t ADVANCED_FILTER_VETO_PLANES = 0x200;
 static constexpr uint64_t ADVANCED_FILTER_VETO_HITS = 0x400;
 static constexpr uint64_t ADVANCED_FILTER_GLOBAL_PLANES = 0x800;
 
-enum class SndAcceleratorMode {
+enum class LhcAcceleratorMode {
   Null,
   Shutdown,
   Cooldown,
@@ -50,7 +50,7 @@ enum class SndAcceleratorMode {
   Unknown = 31
 };
 
-enum class SndBeamMode {
+enum class LhcBeamMode {
   Null,
   Setup,
   Abort,
