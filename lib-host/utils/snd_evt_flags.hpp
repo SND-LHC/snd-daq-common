@@ -40,7 +40,7 @@ NLOHMANN_JSON_SERIALIZE_ENUM(LhcBeamMode, {
   {LhcBeamMode::Adjust, "ADJUST"},
   {LhcBeamMode::StableBeams, "STABLE BEAMS"},
   {LhcBeamMode::UnstableBeams, "UNSTABLE BEAMS"},
-  {LhcBeamMode::BeamDump, "BEAM DUMO"},
+  {LhcBeamMode::BeamDump, "BEAM DUMP"},
   {LhcBeamMode::RampDown, "RAMP DOWN"},
   {LhcBeamMode::Cycling, "CYCLING"},
   {LhcBeamMode::Recovery, "RECOVERY"},
